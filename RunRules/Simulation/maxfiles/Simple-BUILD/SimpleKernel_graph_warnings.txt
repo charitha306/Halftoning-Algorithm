@@ -1,0 +1,90 @@
+*** After kernel graph-pass 'Init Graph' ***
+node "Input(eg)" (ID 10) has unconnected outputs: [data]
+stack trace of node origin follows:
+	com.maxeler.maxcompiler.v2.kernelcompiler.stdlib.core.IO.input(IO.java:606)
+	simple.halftone.<init>(SimpleKernel.maxj:32)
+	simple.SimpleManager.main(SimpleManager.maxj:18)
+	
+node "Input(ep)" (ID 13) has unconnected outputs: [data]
+stack trace of node origin follows:
+	com.maxeler.maxcompiler.v2.kernelcompiler.stdlib.core.IO.input(IO.java:606)
+	simple.halftone.<init>(SimpleKernel.maxj:33)
+	simple.SimpleManager.main(SimpleManager.maxj:18)
+	
+node "{HWOffsetFix:32, 0, TWOSCOMPLEMENT}\n0x00000000; 0.0" (ID 15) has unconnected outputs: [value]
+stack trace of node origin follows:
+	com.maxeler.maxcompiler.v2.kernelcompiler.stdlib.core.Constant.var(Constant.java:96)
+	simple.halftone.<init>(SimpleKernel.maxj:35)
+	simple.SimpleManager.main(SimpleManager.maxj:18)
+	
+node "MUX" (ID 361) has unconnected outputs: [result]
+stack trace of node origin follows:
+	com.maxeler.maxcompiler.v2.kernelcompiler.types.base.DFEVar.ternaryIf(DFEVar.java:1160)
+	simple.halftone.<init>(SimpleKernel.maxj:90)
+	simple.SimpleManager.main(SimpleManager.maxj:18)
+	
+*** After kernel graph-pass 'Init Graph' ***
+node "Input(eg)" (ID 10) has unconnected outputs: [data]
+stack trace of node origin follows:
+	com.maxeler.maxcompiler.v2.kernelcompiler.stdlib.core.IO.input(IO.java:606)
+	simple.halftone.<init>(SimpleKernel.maxj:32)
+	simple.SimpleManager.main(SimpleManager.maxj:18)
+	
+node "Input(ep)" (ID 13) has unconnected outputs: [data]
+stack trace of node origin follows:
+	com.maxeler.maxcompiler.v2.kernelcompiler.stdlib.core.IO.input(IO.java:606)
+	simple.halftone.<init>(SimpleKernel.maxj:33)
+	simple.SimpleManager.main(SimpleManager.maxj:18)
+	
+*** After kernel graph-pass 'FoldConstantsPass' ***
+node "Input(eg)" (ID 10) has unconnected outputs: [data]
+stack trace of node origin follows:
+	com.maxeler.maxcompiler.v2.kernelcompiler.stdlib.core.IO.input(IO.java:606)
+	simple.halftone.<init>(SimpleKernel.maxj:32)
+	simple.SimpleManager.main(SimpleManager.maxj:18)
+	
+node "Input(ep)" (ID 13) has unconnected outputs: [data]
+stack trace of node origin follows:
+	com.maxeler.maxcompiler.v2.kernelcompiler.stdlib.core.IO.input(IO.java:606)
+	simple.halftone.<init>(SimpleKernel.maxj:33)
+	simple.SimpleManager.main(SimpleManager.maxj:18)
+	
+*** After kernel graph-pass 'OptimiseNodesPass' ***
+node "Input(eg)" (ID 10) has unconnected outputs: [data]
+stack trace of node origin follows:
+	com.maxeler.maxcompiler.v2.kernelcompiler.stdlib.core.IO.input(IO.java:606)
+	simple.halftone.<init>(SimpleKernel.maxj:32)
+	simple.SimpleManager.main(SimpleManager.maxj:18)
+	
+node "Input(ep)" (ID 13) has unconnected outputs: [data]
+stack trace of node origin follows:
+	com.maxeler.maxcompiler.v2.kernelcompiler.stdlib.core.IO.input(IO.java:606)
+	simple.halftone.<init>(SimpleKernel.maxj:33)
+	simple.SimpleManager.main(SimpleManager.maxj:18)
+	
+*** After kernel graph-pass 'ScheduleApplier' ***
+node "Input(eg)" (ID 10) has unconnected outputs: [data]
+stack trace of node origin follows:
+	com.maxeler.maxcompiler.v2.kernelcompiler.stdlib.core.IO.input(IO.java:606)
+	simple.halftone.<init>(SimpleKernel.maxj:32)
+	simple.SimpleManager.main(SimpleManager.maxj:18)
+	
+node "Input(ep)" (ID 13) has unconnected outputs: [data]
+stack trace of node origin follows:
+	com.maxeler.maxcompiler.v2.kernelcompiler.stdlib.core.IO.input(IO.java:606)
+	simple.halftone.<init>(SimpleKernel.maxj:33)
+	simple.SimpleManager.main(SimpleManager.maxj:18)
+	
+*** After kernel graph-pass 'RemoveUntypedConstants' ***
+node "Input(eg)" (ID 10) has unconnected outputs: [data]
+stack trace of node origin follows:
+	com.maxeler.maxcompiler.v2.kernelcompiler.stdlib.core.IO.input(IO.java:606)
+	simple.halftone.<init>(SimpleKernel.maxj:32)
+	simple.SimpleManager.main(SimpleManager.maxj:18)
+	
+node "Input(ep)" (ID 13) has unconnected outputs: [data]
+stack trace of node origin follows:
+	com.maxeler.maxcompiler.v2.kernelcompiler.stdlib.core.IO.input(IO.java:606)
+	simple.halftone.<init>(SimpleKernel.maxj:33)
+	simple.SimpleManager.main(SimpleManager.maxj:18)
+	

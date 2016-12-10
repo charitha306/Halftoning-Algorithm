@@ -1,0 +1,32 @@
+Warning (CONSTANT_ENCODING):
+Constant with value 0.6 does not fit exactly into type {HWFloat:8, 24}:
+PRECISION_LOSS: not all of the constant's bits fit into new type, resulting value: 0.6000000238418579
+Origin of related node:
+com.maxeler.maxcompiler.v2.kernelcompiler.stdlib.core.Constant.var(Constant.java:96)
+simple.halftone.<init>(SimpleKernel.maxj:42)
+simple.SimpleManager.main(SimpleManager.maxj:18)
+
+Warning (CONSTANT_ENCODING):
+Constant with value 0.2 does not fit exactly into type {HWFloat:8, 24}:
+PRECISION_LOSS: not all of the constant's bits fit into new type, resulting value: 0.20000000298023224
+Origin of related node:
+com.maxeler.maxcompiler.v2.kernelcompiler.stdlib.core.Constant.var(Constant.java:96)
+simple.halftone.<init>(SimpleKernel.maxj:40)
+simple.SimpleManager.main(SimpleManager.maxj:18)
+
+Warning (CONSTANT_ENCODING):
+Constant with value 0.1 does not fit exactly into type {HWFloat:8, 24}:
+PRECISION_LOSS: not all of the constant's bits fit into new type, resulting value: 0.10000000149011612
+Origin of related node:
+com.maxeler.maxcompiler.v2.kernelcompiler.stdlib.core.Constant.var(Constant.java:96)
+simple.halftone.<init>(SimpleKernel.maxj:43)
+simple.SimpleManager.main(SimpleManager.maxj:18)
+
+Warning (CONSTANT_ENCODING):
+Constant with value 0.1 does not fit exactly into type {HWFloat:8, 24}:
+PRECISION_LOSS: not all of the constant's bits fit into new type, resulting value: 0.10000000149011612
+Origin of related node:
+com.maxeler.maxcompiler.v2.kernelcompiler.stdlib.core.Constant.var(Constant.java:96)
+simple.halftone.<init>(SimpleKernel.maxj:44)
+simple.SimpleManager.main(SimpleManager.maxj:18)
+
